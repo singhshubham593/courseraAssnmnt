@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(editText.length()<=0){
-                Toast.makeText(MainActivity.this,"Invalid Value",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"Invalid Value!",Toast.LENGTH_LONG).show();
                 }
                 else{
                     int number = Integer.parseInt(editText.getText().toString());
